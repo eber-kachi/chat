@@ -1,0 +1,25 @@
+.chat-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 16px;
+    background-color: #dddbd1;
+}
+.text-danger{
+    color: red!important;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    /*align-content: center;*/
+    align-items: center;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    background: red;
+}
