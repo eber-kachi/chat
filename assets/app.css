@@ -1,4 +1,4 @@
-.chat-header{
+.chat-header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -7,19 +7,97 @@
     padding: 10px 16px;
     background-color: #dddbd1;
 }
-.text-danger{
-    color: red!important;
+
+.text-danger {
+    color: red !important;
 }
-.user{
+
+.user {
     display: flex;
     flex-direction: row;
     /*align-content: center;*/
     align-items: center;
 }
-.container{
+
+.container {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    height: 100%;
-    background: red;
+    height: 90vh;
+    /*background: red;*/
+}
+
+.footerChat {
+    background-color: #dddbd1;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.containerChat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+/* Clear floats */
+.containerChat::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.containerChat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.containerChat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
+.float-right{
+    float: right!important;
+}
+.chat-right{
+
+}
+.text-right{
+    text-align: right;
+}
+.w-90{
+    width: 90%!important;
+}
+.w-10{
+    width: 10%!important;
 }

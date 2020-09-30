@@ -2,6 +2,7 @@ import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import NavChat from "./navChat";
 import ContainerChat from "./ContainerChat";
+import FooterChat from "./footerChat";
 
 
 
@@ -11,6 +12,7 @@ const Chat=()=>{
     <View>
       <NavChat nameUser={"eber kachi nina"}/>
       <ContainerChat/>
+      <FooterChat/>
     </View>
   );
 };

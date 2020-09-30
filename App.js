@@ -6,7 +6,7 @@ import Chat from "./components/chat";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Chat>hola</Chat>
+      <Chat></Chat>
     </View>
   );
 }
